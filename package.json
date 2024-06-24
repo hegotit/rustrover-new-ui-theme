@@ -1,0 +1,25 @@
+{
+  "name": "rustrover-new-ui-theme",
+  "displayName": "RustRover New UI Light Theme",
+  "description": "",
+  "version": "0.0.4",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "publisher": "hegotit",
+  "repository": {
+    "url": "https://github.com/hegotit/rustrover-new-ui-theme.git"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "RustRover New Light",
+        "uiTheme": "vs",
+        "path": "./themes/new-light-color-theme.json"
+      }
+    ]
+  }
+}
